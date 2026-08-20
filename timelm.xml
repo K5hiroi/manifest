@@ -8,6 +8,9 @@
 
   <!-- Kernel -->
   <project name="lge-timelm-dev/android_kernel_lge_sm8250" path="kernel/lge/sm8250" remote="github" revision="lineage-23.2" />
+
+  <!-- Device Sepolicy -->
+  <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-23.2" />
   
   <!-- Vendor -->
   <project name="kiy017/proprietary_vendor_lge_timelm" path="vendor/lge/timelm" remote="github" revision="lineage-23.2" />
