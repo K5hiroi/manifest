@@ -14,6 +14,9 @@
   
   <!-- Hardware Pixelwork Interface -->
   <!-- project name="AlphaDroid-Project/hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="github" revision="alpha-16.2" / -->
+
+  <!-- Remove Protobuf Vendorcompat -->
+  <remove-project name="prebuilts/misc/protobuf_vendorcompat" />
   
   <!-- Vendor -->
   <project name="Evolution-X-Devices/vendor_lge_timelm" path="vendor/lge/timelm" remote="github" revision="bka" />
