@@ -9,6 +9,9 @@
   <!-- Kernel -->
   <project name="K5hiroi/android_kernel_lge_sm8250" path="kernel/lge/sm8250" remote="github" revision="lineage-23.2" />
 
+  <!-- LineageSDK -->
+  <project name="LineageOS/android_lineage-sdk" path="lineage-sdk" remote="github" revision="lineage-23.2" />
+  
   <!-- Vendor -->
   <project name="Evolution-X-Devices/vendor_lge_timelm" path="vendor/lge/timelm" remote="github" revision="bka" />
   
